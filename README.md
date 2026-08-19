@@ -24,19 +24,6 @@ cd ~/dev/dotfiles
 
 Existing files are moved to `~/.dotfiles-backup-<timestamp>` before linking.
 
-## Commit messages
-
-Use lowercase `<action>: <description>`:
-
-```
-add: neovim telescope keymaps
-update: warp font size
-fix: zsh path for homebrew ruby
-remove: unused p10k instant prompt block
-```
-
-A commit template lives in `home/.gitmessage` and is set via `commit.template` in `.gitconfig`.
-
 ## Notes
 
 - Shell setup expects [Oh My Zsh](https://ohmyz.sh/), [Powerlevel10k](https://github.com/romkatv/powerlevel10k), and Homebrew packages such as `eza`, `fzf`, `fd`, and `zsh-syntax-highlighting`.
