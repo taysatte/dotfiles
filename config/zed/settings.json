@@ -1,0 +1,29 @@
+{
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    }
+  },
+  "theme": "Rosé Pine",
+  "vim_mode": true,
+  "ui_font_size": 15,
+  "ui_font_family": "MesloLGS NF",
+  "buffer_font_family": "MesloLGS NF",
+  "buffer_font_size": 15,
+  "relative_line_numbers": true,
+  "buffer_line_height": "standard",
+  "languages": {
+    "Python": {
+      "formatter": {
+        "external": {
+          "command": "black",
+          "arguments": ["-"]
+        }
+      }
+    }
+  }
+}

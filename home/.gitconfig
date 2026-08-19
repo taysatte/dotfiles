@@ -1,0 +1,18 @@
+[user]
+	name = taysatte
+	email = taylor.sattenfield@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = true
+[init]
+	defaultBranch = main
+[core]
+	editor = code -n --wait
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
