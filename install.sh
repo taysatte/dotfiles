@@ -35,10 +35,6 @@ done
 # XDG configs
 link "$DOTFILES/config/nvim" "$HOME/.config/nvim"
 link "$DOTFILES/config/neofetch" "$HOME/.config/neofetch"
-link "$DOTFILES/config/btop" "$HOME/.config/btop"
-link "$DOTFILES/config/zed/settings.json" "$HOME/.config/zed/settings.json"
-link "$DOTFILES/config/zed/keymap.json" "$HOME/.config/zed/keymap.json"
-link "$DOTFILES/config/iterm2/themes/kanagawa.itermcolors" "$HOME/.config/iterm2/themes/kanagawa.itermcolors"
 
 # Warp
 link "$DOTFILES/warp/keybindings.yaml" "$HOME/.warp/keybindings.yaml"

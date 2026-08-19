@@ -6,12 +6,9 @@ Personal macOS configs for zsh, Neovim, Warp, and related tools.
 
 | Path | Destination |
 | --- | --- |
-| `home/` | `~` (`.zshrc`, `.zprofile`, `.p10k.zsh`, `.vimrc`, `.gitconfig`, …) |
+| `home/` | `~` (`.zshrc`, `.zprofile`, `.p10k.zsh`, `.vimrc`, `.gitconfig`, `.gitmessage`) |
 | `config/nvim/` | `~/.config/nvim` |
 | `config/neofetch/` | `~/.config/neofetch` |
-| `config/btop/` | `~/.config/btop` |
-| `config/zed/` | `~/.config/zed` |
-| `config/iterm2/themes/` | iTerm2 color schemes |
 | `warp/` | Warp `settings.toml` and `keybindings.yaml` |
 | `oh-my-zsh/themes/tay.zsh-theme` | Oh My Zsh theme |
 
@@ -26,6 +23,19 @@ cd ~/dev/dotfiles
 ```
 
 Existing files are moved to `~/.dotfiles-backup-<timestamp>` before linking.
+
+## Commit messages
+
+Use lowercase `<action>: <description>`:
+
+```
+add: neovim telescope keymaps
+update: warp font size
+fix: zsh path for homebrew ruby
+remove: unused p10k instant prompt block
+```
+
+A commit template lives in `home/.gitmessage` and is set via `commit.template` in `.gitconfig`.
 
 ## Notes
 

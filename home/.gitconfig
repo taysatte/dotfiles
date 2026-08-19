@@ -12,6 +12,8 @@
 	defaultBranch = main
 [core]
 	editor = code -n --wait
+[commit]
+	template = ~/.gitmessage
 [column]
 	ui = auto
 [branch]

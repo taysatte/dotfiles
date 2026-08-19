@@ -1,0 +1,7 @@
+
+# <action>: <description of commit>
+# examples:
+#   add: neovim telescope keymaps
+#   update: warp font size
+#   fix: zsh path for homebrew ruby
+#   remove: unused p10k instant prompt block
